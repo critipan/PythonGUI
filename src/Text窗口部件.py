@@ -33,7 +33,7 @@ b1 = tk.Button(window, text = '在光标处插入', width = 10, height = 2, comm
 b2 = tk.Button(window, text = '在结尾处插入', width = 10, height = 2, command = insert_end)
 b1.pack()
 b2.pack()
-
+N
 #创建Text
 t = tk.Text(window)
 t.pack()
